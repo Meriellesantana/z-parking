@@ -6,19 +6,146 @@
         ZParking
     </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="shortcut icon" type="image/x-icon" href="">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/mobile.css" media="screen">
-<link rel="stylesheet" href="css/web.css" media="screen">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css" media="screen">
+    <link rel="stylesheet" href="css/web.css" media="screen">
 
 </head>
 
 <body>
+
+    <header>
+        <div class="margens" style="width: 100%;">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff;">
+
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo1.png" width="50" height="40" class="d-inline-block align-top" alt="">
+                        <div class="empresa">
+                            Z PARKING
+                        </div>
+                        <div class="rede">Shibata Suzano</div>
+                    </a>
+                    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Alterna navegação">
+                        <span class="navbar-toggler-icon"></span>
+                    </button> -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="mp" class="nav-item ">
+                                <a class="nav-link" href="#">DashBoard</a>
+                            </li>
+                            <li class="mp" class="nav-item">
+                                <a class="nav-link" href="#">Estacionamento</a>
+                            </li>
+                            <li class="mp" class="nav-item">
+                                <a class="nav-link" href="#">Cadastro</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div= class="botoes">
+                        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                            <div class="btn-group me-2" role="group" aria-label="First group">
+                                <button type="button" class="btn btn-primary " style="
+                              padding-left: 22%;
+                              padding-right: 31%;
+                              margin-left: -73%;
+                              margin-right: 10%;
+                          "><img src="img/Vector.png" alt=""></button>
+                                <button type="button" class="btn btn-primary" style="
+                              padding-left: 14%;
+                              padding-right: 17%;
+                          "><img src="img/Union.png" alt=""></button>
+
+                            </div>
+
+                        </div>
+                </nav>
+            </div>
+        </div>
+    </header>
     <main>
-        <section class="section1"></section>
+
+        <section class="section1">
+            <div class="container">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="padding-top: 1%;">
+                    <li class="nav-item" id="espaço">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                            aria-controls="pills-home" aria-selected="true">Entrada e Saída</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                            aria-controls="pills-profile" aria-selected="false">Caixa</a>
+                    </li>
+
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <nav class="navbar navbar-light bg-light" style="padding-top: 2%;padding-bottom: 1.5%">
+                            <div class="container-fluid">
+                                <form class="d-flex">
+                                    <input class="form-control me-2" type="search" placeholder="Placa" aria-label="Search" style="height: 36px;">
+                                    <button class="btn btn-outline-success" type="submit"><img src="img/Icone Busca.png"
+                                            class="pesquisa"></button>
+                                </form>
+                            </div>
+                        </nav>
+                        <div class="dia">
+                            02/02/2021
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="nun">
+                                            22
+                                        </div>
+                                        <div class="mes">
+                                            JAN
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="nun">
+                                            Placa
+                                        </div>
+                                        <div class="mes">
+                                            Euu 2023
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                         <div class="nun">
+                                        Horário
+                                    </div>
+                                    <div class="mes">
+                                        12:00 - 15:00
+                                    </div></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="tab-pane" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        BBBBBBB</div>
+
+                </div>
+            </div>
+        </section>
         <section class="section2"></section>
         <section class="section3"></section>
         <section class="section4"></section>
@@ -33,7 +160,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="js/web.js"></script>
 </body>
-    <footer>
+<footer>
 
-    </footer>
+</footer>
+
 </html>
