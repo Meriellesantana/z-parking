@@ -1,0 +1,128 @@
+/* background-color: #F0F0F0;
+  color: #ACACAC
+    */
+
+    *{
+        outline: none;
+           font-family: 'Open Sans', sans-serif;
+       }
+       /* .container{
+           margin-left: 62px !important;
+           margin-right: 62px !important;
+       } */
+       .empresa{
+           color: #7D7F80;
+           font-size: 14px;
+           margin-top: -42%;
+           margin-left: 76%;
+           font-weight: 600;
+       }
+       
+       .rede{
+           font-weight: 400;
+           margin-left: 75%;
+           margin-top: 4%;
+           font-size: 10px;
+           text-transform: uppercase;
+           line-height: 13.62px;
+           color: #ACACAC
+       }
+       
+       #navbarNav {
+           margin-left: 383px;
+       
+       }
+       .mp{
+        text-transform: uppercase;    
+        font-size:12px;
+        font-weight: 600;
+        line-height:16.34px;
+        margin-left: 17%;
+        
+    }
+    .mp:hover{
+        color:#963E9E !important;
+    
+    }
+       
+       .mp2{
+           text-transform: uppercase;    
+           font-size:12px;
+           font-weight: 600;
+           line-height:16.34px;
+           margin-left: 17%;
+           
+       }
+        #a:hover {
+           color:#963E9E !important;
+       
+       }
+       .login{
+           position: relative;
+  
+       }
+       #xis{
+           padding-top: 26%;
+       }
+       .ver{
+            
+        padding-top: 4%;
+        padding-left: 62%;
+        font-size: 12px;
+
+       }
+       .vindos{
+        margin-left: -62%;
+        margin-top: 61px;
+        display: flex;
+       }
+       .oi{
+          
+        color: #ACACAC;
+        font-size: 26px;
+        font-weight: 400;
+
+       }
+       .nome1{
+        margin-left: 11%;
+        color: #000000;
+        font-size: 26px;
+        font-weight: 400;
+        
+       }
+       .btn-link{
+        color:#963E9E !important;
+        margin-top: 3%;
+        margin-left: -23%;
+        font-weight: 600;
+        font-size: 14px;
+       }
+       #redes{
+           margin-left: -34% !important;
+           margin-top: 71%;
+       }
+       .funpreto{
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.171);
+      
+       }
+       .cinza{
+        display: flex;
+        margin-top: -52%;
+        padding-bottom: 27.5%;
+        margin-left: 73%;
+        background: #F7F9FA;
+        color: rgb(0, 0, 0);
+        width: 27%;
+        z-index: 20000;
+       }
+      #a .cinza:hover{
+        background: #7d7f80;
+        color: rgb(0, 0, 0);
+    
+         }
+       .botoes{
+           display: flex;
+         
+       }
+       

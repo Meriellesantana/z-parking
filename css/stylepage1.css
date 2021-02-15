@@ -1,0 +1,151 @@
+/* background-color: #F0F0F0;
+  color: #ACACAC
+    */
+
+*{
+ outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+/* .container{
+    margin-left: 62px !important;
+    margin-right: 62px !important;
+} */
+.empresa{
+    color: #7D7F80;
+    font-size: 14px;
+    margin-top: -42%;
+    margin-left: 76%;
+    font-weight: 600;
+}
+
+.rede{
+    font-weight: 400;
+    margin-left: 75%;
+    margin-top: 4%;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 13.62px;
+    color: #ACACAC
+}
+
+#navbarNav {
+    margin-left: 383px;
+
+}
+
+.mp{
+    text-transform: uppercase;    
+    font-size:12px;
+    font-weight: 600;
+    line-height:16.34px;
+    margin-left: 17%;
+    
+}
+.mp:hover{
+    color:#963E9E !important;
+
+}
+.mp2{
+    text-transform: uppercase;    
+    font-size:12px;
+    font-weight: 600;
+    line-height:16.34px;
+    margin-left: 17%;
+    
+}
+.mp2:hover{
+    color:#963E9E !important;
+
+}
+.botoes{
+    display: flex;
+  
+}
+#inicio{
+    color: rgba(255, 255, 255, 0) !important;
+    background-color: #0d6dfd00 !important;
+    border-color:  #ACACAC !important;
+    border-radius: 0% !important;
+}
+#princ{
+    padding: 1%;
+}
+.section1{
+   background-color: #F0F0F0;
+   padding-top: 14px;
+   padding-bottom: 6px;
+   height: 122vh;
+}
+#espaço{
+    margin-right: 7%;
+}
+#pills-tab{
+    background-color: #ffffff;
+  
+}
+#pills-tabContent{
+    background-color: #ffffff;
+    margin-top: -14px;
+}
+#pills-home-tab,#pills-profile-tab {
+    color: #ACACAC!important;
+}
+
+.nav-pills .nav-link.active{
+    color: #ACACAC!important;
+    background-color: #0d6dfd00!important;
+    border-bottom:#963E9E solid 2px !important;
+    border-radius: 0% !important;
+    margin-bottom: -20px;
+}
+
+#inform,.infor{
+    padding: -1%!important;
+    color: #ACACAC!important;
+    background-color: #f0f0f000!important;
+    border: none!important;
+    font-size: 12px;
+}
+
+
+
+.btn-outline-success {
+    color: #19875400 !important;
+    border-color: #ff000000 !important;
+    margin-right: 0%;
+}
+.btn-outline-success:hover {
+    color: rgba(255, 255, 255, 0) !important;
+    background-color: #19875400 !important;
+    border-color: #19875400 !important;
+}
+.form-control{
+    border-radius: 0% !important;
+}
+#novo{
+    border: none;
+}
+.form-floating>label {
+    position: absolute;
+    top: 0;
+    left: -6px;
+    height: 100%;
+    padding: 1rem .75rem;
+    pointer-events: none;
+    border: 1px solid transparent;
+    transform-origin: 0 0;
+    transition: opacity .1s;
+}
+.pesquisa{
+    width: 153%;
+}
+.btn-outline-light {
+    padding: 1.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0 !important;
+    margin-top: -15.2%;
+    margin-bottom: -5.2%;
+    margin-right: -219%;
+    border:#f0f0f000;
+    background-color: #f0f0f000;
+   }

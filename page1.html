@@ -61,17 +61,13 @@
                     </div>
                     <div= class="botoes">
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                            <div class="btn-group me-2" role="group" aria-label="First group">
-                                <button type="button" class="btn btn-primary " style="
-                              padding-left: 22%;
-                              padding-right: 31%;
-                              margin-left: -73%;
-                              margin-right: 10%;
-                          "><img src="img/Vector.png" alt=""></button>
-                                <button type="button" class="btn btn-primary" style="
-                              padding-left: 14%;
-                              padding-right: 17%;
-                          "><img src="img/Union.png" alt=""></button>
+                            <div id="princ" class="btn-group me-2" role="group" aria-label="First group">
+                                <button id="inicio" type="button" class="btn btn-primary "
+                                    style="padding-left: 22%;padding-right: 31%;margin-left: -73%;margin-right: 10%;"><img
+                                        src="img/Vector.png" alt=""></button>
+                                <button id="inicio" type="button" class="btn btn-primary"
+                                    style="padding-left: 14%;padding-right: 17%;"><img src="img/Union.png"
+                                        alt=""></button>
 
                             </div>
 
@@ -96,14 +92,69 @@
                 </ul>
                 <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                        <nav class="navbar navbar-light bg-light" style="padding-top: 2.3%;padding-bottom: 2.3%">
+                        <nav class="navbar navbar-light bg-light" style="padding-top: 2%;padding-bottom: 1.5%">
                             <div class="container-fluid">
 
-                                <a href="page1.html" class="page1"> <img src="img/mais.png"> Novo</a>
+                                <div id="inform" class="btn-group" role="group" aria-label="Basic outlined example">
+                                    <button class="infor" type="button" class="btn btn-outline-primary"><img class="vec"
+                                            src="img/Vector1.png" alt="">Salvar</button>
+                                    <button class="infor" type="button" class="btn btn-outline-primary"><img class="vec"
+                                            src="img/Vector2.png" alt="">Avarias</button>
+                                    <button class="infor" type="button" class="btn btn-outline-primary"><img class="vec"
+                                            src="img/Vector4.png" alt=""> Dados pessoais</button>
+                                    <button class="infor" type="button" class="btn btn-outline-primary"><img class="vec"
+                                            src="img/Vector4.png" alt="">Cancelar</button>
+                                </div>
 
                             </div>
                         </nav>
-
+                        <div class="container-fluid">
+                            <form class="row g-3" style="padding-bottom: 3%;">
+                                <div class="col-2">
+                                    <label for="placa" class="form-label">Placa</label>
+                                    <input type="text" class="form-control" id="placa">
+                                </div>
+                                <div class="col-2" style="margin-left: 13%;">
+                                    <label for="codigo" class="form-label">Código</label>
+                                    <input type="number" class="form-control" id="codigo">
+                                </div>
+                                <div class="col-2" style="margin-left: 93px;">
+                                    <label for="cupom" class="form-label">Cupom de desconto</label>
+                                    <select id="cupom" class="form-select">
+                                        <option selected>Cupom</option>
+                                        <option>12312312</option>
+                                        <option>livre</option>
+                                        <option>O125psnj</option>
+                                    </select>
+                                </div>
+                                <div class="col-2" style="margin-left: 81px;">
+                                    <label for="Entrada" class="form-label">Entrada</label>
+                                    <input type="time" class="form-control" id="entrada">
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="veiculo" class="form-label">Tipo de veiculo</label>
+                                    <select id="veiculo" class="form-select" style="margin-left: -51%;">
+                                        <option selected>Carro/passeio</option>
+                                        <option>Moto</option>
+                                        <option>Caminhonete</option>
+                                        <option>Outros</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-5">
+                                    <label for="cliente" class="form-label">Tipo de cliente</label>
+                                    <select id="cliente" class="form-select" style="    margin-left: -18%;">
+                                        <option selected>Desconhecido</option>
+                                        <option>Diarista</option>
+                                        <option>Mensalista</option>
+                                        <option>Outros</option>
+                                    </select>
+                                </div>
+                                <div class="col-2">
+                                    <label for="Saida" class="form-label">Saída</label>
+                                    <input type="time" class="form-control" id="Saida">
+                                </div>
+                            </form>
+                        </div>
                         <div class="dupla">
                             <div class="dia">
                                 Entrada / Saída
@@ -136,9 +187,9 @@
                                             12:00 - em aberto
                                         </div>
                                     </div>
-                                    <div class="col-md-4"style=" margin-left: 33%;">
+                                    <div class="col-md-4" style=" margin-left: 33%;">
                                         <div class="elemento2">
-                                           250,00
+                                            250,00
                                         </div>
                                         <div class="elemento">
                                             Valor total devido
@@ -146,8 +197,19 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                            <button type="button" class="btn-lg btn-danger"><img src="img/Vector11.png" alt=""></button>
-                                            
+
+                                            <a class="btn-outline-light" data-bs-toggle="collapse"
+                                                href="#collapseExample" role="button" aria-expanded="false"
+                                                aria-controls="collapseExample">
+                                                <img src="img/seta-alto.png" alt=""></a>
+                                            </p>
+                                            <div class="collapse" id="collapseExample">
+                                                <div class="card card-body">
+                                                    Some placeholder content for the collapse component. This panel is
+                                                    hidden by default but revealed when the user activates the relevant
+                                                    trigger.
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -165,56 +227,21 @@
                                 </form>
                             </div>
                         </nav>
-                        <div class="dupla">
-                            <div class="dia">
-                                02/02/2021
-                            </div>
-                            <div class="val">
-                                Total R$ 1500,00
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-md-1">
-                                        <div class="elemento1">
-                                            22
-                                        </div>
-                                        <div class="elemento2">
-                                            JAN
-                                        </div>
-                                    </div>
-                                    <div class="col-md-1">
-                                        <div class="elemento">
-                                            Placa
-                                        </div>
-                                        <div class="elemento2">
-                                            EUU 2023
-                                        </div>
-                                    </div>
-                                    <div class="col-md-2">
-                                        <div class="elemento">
-                                            Horário
-                                        </div>
-                                        <div class="elemento2">
-                                            12:00 - 15:00
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
 
                     </div>
                 </div>
 
             </div>
-            </div>
+
         </section>
 
 
     </main>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
     <script src="js/web.js"></script>
 </body>
 <footer>
