@@ -139,7 +139,7 @@
 .pesquisa{
     width: 153%;
 }
-.btn-outline-light {
+#xis {
     padding: 1.5rem 1rem;
     font-size: 1.25rem;
     border-radius: 0 !important;
@@ -148,4 +148,19 @@
     margin-right: -219%;
     border:#f0f0f000;
     background-color: #f0f0f000;
+   }
+   #xis1{
+       position: relative;
+   }
+   #xiss {
+    position: absolute;
+    left: 97%;
+    margin-top: -2.5%;
+    border: #f0f0f000 !important;
+    background-color: #f0f0f000 !important;
+   }
+   #xis2{
+       background-color: #f0f0f000 !important;
+      box-shadow: none !important;
+      margin-left: -1.8%;
    }
